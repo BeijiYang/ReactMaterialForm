@@ -1,9 +1,7 @@
 import React, { Component } from 'react'
-// import TopHeader from '../../containers/TopHeaderContainer'
-// import Footer from '../Footer/Footer'
 import Button from 'material-ui/Button'
-import FormItem from '../../common/FormItem'
-import SmsSendContainer from '../../containers/SmsSendContainer'
+import FormItem from '../common/FormItem'
+import SmsSendContainer from '../containers/SmsSendContainer'
 import styled from 'styled-components'
 
 class Signup extends Component {
@@ -41,7 +39,6 @@ class Signup extends Component {
   render () {
     return (
       <SignupWrap>
-        {/* <TopHeader /> */}
         <FromWrap onSubmit={this.handleSubmit}>
           <FormItem
             error={this.props.errorText.phoneNum}
@@ -91,7 +88,6 @@ class Signup extends Component {
             注册
           </ActionButton>
         </FromWrap>
-        {/* <Footer /> */}
       </SignupWrap>
     )
   }

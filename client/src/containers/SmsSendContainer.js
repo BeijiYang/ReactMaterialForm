@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import SmsSend from '../components/SmsSend/SmsSend'
+import SmsSend from '../components/SmsSend'
 import { getSmsSendState } from '../selectors/commonSelectors.js'
 import {
   sendMsg,

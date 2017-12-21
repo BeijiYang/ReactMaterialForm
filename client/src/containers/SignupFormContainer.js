@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import Signup from '../components/Signup/Signup'
+import Signup from '../components/Signup'
 import {
   getFormState,
   getCurrentUser
