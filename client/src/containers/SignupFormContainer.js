@@ -1,10 +1,7 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import Signup from '../components/Signup'
-import {
-  getFormState,
-  getCurrentUser
-} from '../selectors/commonSelectors.js'
+import { getFormState } from '../selectors/commonSelectors.js'
 import {
   formErrInit,
   passwordTooShort,

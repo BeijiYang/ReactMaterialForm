@@ -1,5 +1,5 @@
 // import axios from 'axios'
-import config from '../config/config'
+// import config from '../config/config'
 import * as types from '../constants/actionTypes.js'
 
 export function sendMsg (phoneNum) {
