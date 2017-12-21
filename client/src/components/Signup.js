@@ -98,7 +98,6 @@ export default Signup
 const SignupWrap = styled.div`
   display: flex;
   flex-direction: column;
-  height: 100vh;
 `
 
 const FromWrap = styled.form`
@@ -112,7 +111,7 @@ const FromWrap = styled.form`
   box-shadow: 2px 2px 5px #888888;
   border-top: 2.5em solid #00BCD4;
   text-align: center;
-  margin-top: 5%;
+  margin: 5%;
   padding: 0 60px;
   @media (min-width: 400px) {
     width: 360px;
